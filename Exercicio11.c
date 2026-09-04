@@ -12,7 +12,7 @@ int main()
 
     total_ingressos = custo / convite;
 
-    printf ("O total de convites que precisam ser vendidos para abater o custo do espetaculo e de %.0f", total_ingressos);
+    printf ("O total de convites que precisam ser vendidos para abater o custo do espetaculo e de %.1f", total_ingressos);
 
     return(0);
 }
