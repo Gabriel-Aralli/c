@@ -3,16 +3,18 @@
 int main()
 
 {
-    float salario, aumento, novo_salario;
+    float salario, percentual, aumento, novo_salario;
 
     printf ("Digite o seu salario: ");
     scanf ("%f", &salario);
     printf ("Digite a porcentagem de aumento: ");
-    scanf ("%f", &aumento);
+    scanf ("%f", &percentual);
 
-    novo_salario = salario + (salario * (aumento / 100));
+    aumento = salario * (aumento / 100)
+    novo_salario = salario + aumento;
 
-    printf ("Seu novo salario e de %.2f.", novo_salario);
+    printf ("O valor do aumento foi de R$%.2f", aumento);
+    printf ("\nSeu novo salario e de R$%.2f.", novo_salario);
 
     return(0);
 }
